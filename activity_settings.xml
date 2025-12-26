@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textColor="#00FFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"
+        android:shadowColor="#00FFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20" />
+
+    <Button
+        android:id="@+id/resetScoreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET HIGH SCORE"
+        android:textSize="24sp"
+        android:backgroundTint="#FF0000"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Sound Settings -->
+    <Switch
+        android:id="@+id/soundSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Effects"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:checked="true"
+        android:thumbTint="#00FFFF"
+        android:trackTint="#8000FFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Difficulty Settings -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIFFICULTY"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/difficultyRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/easyRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#00FF00"
+            android:layout_marginEnd="16dp"/>
+
+        <RadioButton
+            android:id="@+id/normalRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFF00"
+            android:layout_marginEnd="16dp"/>
+
+        <RadioButton
+            android:id="@+id/hardRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FF0000"/>
+    </RadioGroup>
+
+    <!-- Mode Settings -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISUAL MODE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/modeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/darkModeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FF00FF"
+            android:layout_marginEnd="16dp"/>
+
+        <RadioButton
+            android:id="@+id/whiteModeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:layout_marginEnd="16dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/resetCoinsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET COINS"
+        android:textSize="24sp"
+        android:backgroundTint="#FFFF00"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="24sp"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF" />
+
+    <!-- About Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by: Yuvrajsinh Zala"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
