@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:shadowColor="#880000"
+        android:shadowRadius="20"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/highScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best: 0"
+        android:textColor="#FFFF00"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/coinsEarnedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EARNED: 0 COINS"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="TRY AGAIN"
+        android:textSize="20sp"
+        android:backgroundTint="#00FF00"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="MAIN MENU"
+        android:textSize="18sp"
+        android:backgroundTint="#444444"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

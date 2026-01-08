@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.FlipNeonVortex" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF00FF</item>
+        <item name="colorPrimaryDark">#00FFFF</item>
+        <item name="colorAccent">#00FF00</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.FlipNeonVortex.Fullscreen" parent="Theme.FlipNeonVortex">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
